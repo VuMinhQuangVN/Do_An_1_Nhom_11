@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyenMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7B7C7F-A8AF-472E-8432-248A80CAAE74}|DiemRenLuyenMVC\\DiemRenLuyenMVC.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyenmvc\\diemrenluyenmvc\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7B7C7F-A8AF-472E-8432-248A80CAAE74}|DiemRenLuyenMVC\\DiemRenLuyenMVC.csproj|solutionrelative:diemrenluyenmvc\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7B7C7F-A8AF-472E-8432-248A80CAAE74}|DiemRenLuyenMVC\\DiemRenLuyenMVC.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyenmvc\\diemrenluyenmvc\\controllers\\taikhoanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7B7C7F-A8AF-472E-8432-248A80CAAE74}|DiemRenLuyenMVC\\DiemRenLuyenMVC.csproj|solutionrelative:diemrenluyenmvc\\controllers\\taikhoanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7B7C7F-A8AF-472E-8432-248A80CAAE74}|DiemRenLuyenMVC\\DiemRenLuyenMVC.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyenmvc\\diemrenluyenmvc\\views\\taikhoans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7B7C7F-A8AF-472E-8432-248A80CAAE74}|DiemRenLuyenMVC\\DiemRenLuyenMVC.csproj|solutionrelative:diemrenluyenmvc\\views\\taikhoans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7B7C7F-A8AF-472E-8432-248A80CAAE74}|DiemRenLuyenMVC\\DiemRenLuyenMVC.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyenmvc\\diemrenluyenmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7B7C7F-A8AF-472E-8432-248A80CAAE74}|DiemRenLuyenMVC\\DiemRenLuyenMVC.csproj|solutionrelative:diemrenluyenmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyenMVC\\DiemRenLuyenMVC\\Program.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyenMVC\\Program.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyenMVC\\DiemRenLuyenMVC\\Program.cs",
+              "RelativeToolTip": "DiemRenLuyenMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T06:33:38.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyenMVC\\DiemRenLuyenMVC\\Views\\TaiKhoans\\Index.cshtml",
+              "RelativeDocumentMoniker": "DiemRenLuyenMVC\\Views\\TaiKhoans\\Index.cshtml",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyenMVC\\DiemRenLuyenMVC\\Views\\TaiKhoans\\Index.cshtml",
+              "RelativeToolTip": "DiemRenLuyenMVC\\Views\\TaiKhoans\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T06:15:19.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaiKhoansController.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyenMVC\\DiemRenLuyenMVC\\Controllers\\TaiKhoansController.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyenMVC\\Controllers\\TaiKhoansController.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyenMVC\\DiemRenLuyenMVC\\Controllers\\TaiKhoansController.cs",
+              "RelativeToolTip": "DiemRenLuyenMVC\\Controllers\\TaiKhoansController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T06:02:07.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaiKhoan.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyenMVC\\DiemRenLuyenMVC\\Models\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyenMVC\\Models\\TaiKhoan.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyenMVC\\DiemRenLuyenMVC\\Models\\TaiKhoan.cs*",
+              "RelativeToolTip": "DiemRenLuyenMVC\\Models\\TaiKhoan.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T05:55:35.743Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
