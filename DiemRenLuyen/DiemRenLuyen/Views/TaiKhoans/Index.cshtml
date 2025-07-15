@@ -1,0 +1,41 @@
+﻿@model DiemRenLuyen.Models.TaiKhoan
+
+@{
+    ViewData["Title"] = "Đăng nhập";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card shadow p-4 mt-5">
+                <h3 class="text-center mb-4">Đăng nhập</h3>
+
+                <form asp-action="Index" method="post">
+                    <div class="mb-3">
+                        <label asp-for="TenDangNhap" class="form-label">Tên đăng nhập</label>
+                        <input asp-for="TenDangNhap" class="form-control" />
+                        <span asp-validation-for="TenDangNhap" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="MatKhau" class="form-label">Mật khẩu</label>
+                        <input asp-for="MatKhau" class="form-control" type="password" />
+                        <span asp-validation-for="MatKhau" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="RememberMe">
+                        <label class="form-check-label" for="RememberMe">Ghi nhớ đăng nhập</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Đăng nhập</button>
+
+                    @if (ViewBag.ThongBao != null)
+                    {
+                        <div class="alert alert-danger mt-3">@ViewBag.ThongBao</div>
+                    }
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

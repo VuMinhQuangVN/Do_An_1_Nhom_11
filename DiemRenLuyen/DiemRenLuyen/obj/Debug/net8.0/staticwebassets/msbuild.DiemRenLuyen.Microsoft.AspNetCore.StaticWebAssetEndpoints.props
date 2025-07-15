@@ -16,13 +16,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DiemRenLuyen.at9kr7x2df.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"at9kr7x2df"},{"Name":"integrity","Value":"sha256-Uopcmd7B25yARfeWhFp0j1hbvyZ7kKdywr66dznV\u002B1Y="},{"Name":"label","Value":"_content/DiemRenLuyen/DiemRenLuyen.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Uopcmd7B25yARfeWhFp0j1hbvyZ7kKdywr66dznV\u002B1Y=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Jul 2025 07:07:32 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Uopcmd7B25yARfeWhFp0j1hbvyZ7kKdywr66dznV\u002B1Y=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Jul 2025 07:41:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DiemRenLuyen/DiemRenLuyen.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DiemRenLuyen.at9kr7x2df.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Uopcmd7B25yARfeWhFp0j1hbvyZ7kKdywr66dznV\u002B1Y="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Uopcmd7B25yARfeWhFp0j1hbvyZ7kKdywr66dznV\u002B1Y=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Jul 2025 07:07:32 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Uopcmd7B25yARfeWhFp0j1hbvyZ7kKdywr66dznV\u002B1Y=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Jul 2025 07:41:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DiemRenLuyen/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
