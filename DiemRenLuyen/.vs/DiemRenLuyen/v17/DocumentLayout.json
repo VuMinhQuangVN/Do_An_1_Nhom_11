@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250715072106_SeedTaiKhoan4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DiemRenLuyen\\Migrations\\20250715072106_SeedTaiKhoan4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\data\\diemrenluyencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\data\\diemrenluyencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250715070736_SeedTaiKhoan1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DiemRenLuyen\\Migrations\\20250715070736_SeedTaiKhoan1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\diemrenluyen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\diemrenluyen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250715072106_SeedTaiKhoan4.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250715072106_SeedTaiKhoan4.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Migrations\\20250715072106_SeedTaiKhoan4.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250715072106_SeedTaiKhoan4.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Migrations\\20250715072106_SeedTaiKhoan4.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T07:21:06.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\appsettings.json",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\appsettings.json",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\appsettings.json",
+              "RelativeToolTip": "DiemRenLuyen\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-15T07:02:09.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiemRenLuyenContext.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Data\\DiemRenLuyenContext.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Data\\DiemRenLuyenContext.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Data\\DiemRenLuyenContext.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Data\\DiemRenLuyenContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T07:01:24.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\appsettings.Development.json",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\appsettings.Development.json",
+              "RelativeToolTip": "DiemRenLuyen\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-15T07:02:08.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250715070736_SeedTaiKhoan1.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250715070736_SeedTaiKhoan1.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Migrations\\20250715070736_SeedTaiKhoan1.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250715070736_SeedTaiKhoan1.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Migrations\\20250715070736_SeedTaiKhoan1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T07:07:37.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Program.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Program.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Program.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T07:02:05.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaiKhoan.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\TaiKhoan.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\TaiKhoan.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\TaiKhoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T06:56:20.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DiemRenLuyen",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\DiemRenLuyen.csproj",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\DiemRenLuyen.csproj",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\DiemRenLuyen.csproj",
+              "RelativeToolTip": "DiemRenLuyen\\DiemRenLuyen.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-15T07:00:49.766Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
