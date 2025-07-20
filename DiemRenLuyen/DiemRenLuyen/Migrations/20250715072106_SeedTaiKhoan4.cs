@@ -34,21 +34,21 @@ namespace DiemRenLuyen.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DeleteData(
-        table: "TaiKhoan",
-        keyColumn: "TenDangNhap",
-        keyValues: new object[]
-        {
-            "22103100228",
-            "22103100229",
-            "22103100230",
-            "22103100231",
-            "22103100232",
-            "22103110301",
-            "22103110302",
-            "22103110303",
-            "22103199901",
-            "22103199902"
-        });
+            table: "TaiKhoan",
+            keyColumn: "TenDangNhap",
+            keyValues: new object[]
+            {
+                "22103100228",
+                "22103100229",
+                "22103100230",
+                "22103100231",
+                "22103100232",
+                "22103110301",
+                "22103110302",
+                "22103110303",
+                "22103199901",
+                "22103199902"
+            });
         }
     }
 }

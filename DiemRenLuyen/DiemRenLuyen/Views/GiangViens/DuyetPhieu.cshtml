@@ -1,0 +1,135 @@
+﻿@model DiemRenLuyen.Models.GiangVienViewModels.DuyetPhieuViewModel
+
+@{
+    ViewData["Title"] = "Duyệt phiếu rèn luyện";
+    int numericIndex = 0;
+    string currentGroup = "";
+}
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <h2>Hệ thống chấm điểm rèn luyện - Giảng viên duyệt</h2>
+                <div class="user-info">
+                    <span>@ViewBag.TenGV</span>
+                    <a asp-controller="TaiKhoans" asp-action="Index">Đăng xuất</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <nav>
+                <a asp-controller="GiangViens" asp-action="Index">Trang chủ</a>
+                <a asp-controller="GiangViens" asp-action="DanhSachPhieu">Danh sách phiếu</a>
+                <a asp-controller="GiangViens" asp-action="DaDuyet">Đã duyệt</a>
+            </nav>
+
+            <main class="main1">
+                <h2>Duyệt phiếu rèn luyện</h2>
+
+                <p><strong>Sinh viên:</strong> @Model.HoTenSV</p>
+                <p><strong>Mã SV:</strong> @Model.MaSV</p>
+                <p><strong>Ngày nộp:</strong> @Model.NgayNop.ToShortDateString()</p>
+
+                <form asp-action="DuyetPhieu" method="post">
+                    <input type="hidden" name="MaPhieu" value="@Model.MaPhieu" />
+
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Tiêu chí</th>
+                                <th>Điểm sinh viên</th>
+                                <th>Minh chứng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.DanhSachChiTiet.Count; i++)
+                            {
+                                var tc = Model.DanhSachChiTiet[i];
+                                string maTC = tc.MaTC;
+                                string stt = "";
+
+                                if (maTC.StartsWith("B"))
+                                {
+                                    if (maTC.Length == 2)
+                                    {
+                                        currentGroup = "B";
+                                        numericIndex = 0;
+                                        stt = "B";
+                                    }
+                                    else if (maTC.Length == 3)
+                                    {
+                                        numericIndex++;
+                                        stt = ((char)('I' + int.Parse(maTC[2].ToString()) - 1)).ToString();
+                                    }
+                                    else if (maTC.Length == 4)
+                                    {
+                                        stt = maTC[3].ToString();
+                                    }
+                                    else
+                                    {
+                                        stt = "-";
+                                    }
+                                }
+                                else if (maTC.StartsWith("C"))
+                                {
+                                    if (maTC.Length == 3)
+                                    {
+                                        if (currentGroup != "C")
+                                        {
+                                            currentGroup = "C";
+                                            numericIndex = 1;
+                                        }
+                                        else
+                                        {
+                                            numericIndex++;
+                                        }
+                                        stt = numericIndex.ToString();
+                                    }
+                                    else
+                                    {
+                                        stt = "-";
+                                    }
+                                }
+
+                                <tr>
+                                    <td>@stt</td>
+                                    <td>
+                                        @tc.TenTieuChi
+                                        <input type="hidden" name="MaTCs[@i]" value="@tc.MaTC" />
+                                    </td>
+                                    <td>
+                                        <input type="number" name="Diems[@i]" value="@tc.DiemSV" class="form-control" min="0" max="100" />
+                                    </td>
+                                    <td>
+                                        @if (!string.IsNullOrEmpty(tc.TepMinhChung))
+                                        {
+                                            <a href="/MinhChung/@tc.TepMinhChung" target="_blank">Xem minh chứng</a>
+                                        }
+                                        else
+                                        {
+                                            <em>Không có</em>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                    <div class="form-group">
+                        <label for="GhiChu">Ghi chú duyệt:</label>
+                        <textarea name="GhiChu" class="form-control" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Lưu và duyệt phiếu</button>
+                </form>
+            </main>
+        </div>
+
+        <footer>
+            © 2025 – Hệ thống chấm điểm rèn luyện
+        </footer>
+    </div>
+</body>

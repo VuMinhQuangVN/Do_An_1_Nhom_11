@@ -1,22 +1,150 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+﻿/* Reset */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+/* Wrapper toàn bộ trang */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Quan trọng để footer xuống đáy */
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+/* Phần giữa: Menu + Nội dung */
+.main-content {
+    display: flex;
+    flex: 1;
+    min-height: 400px; /* Giúp khi nội dung ngắn thì vùng vẫn đủ cao */
+}
+
+/* Menu bên trái */
+nav {
+    width: 220px;
+    background-color: #f0f0f0; /* ✅ màu nền sáng */
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+
+    /* Link trong nav */
+    nav a {
+        display: block;
+        padding: 10px;
+        margin-bottom: 5px;
+        text-decoration: none;
+        color: #333;
+        border-left: 4px solid transparent;
+        background-color: #ffffff;
+        border-radius: 4px;
+    }
+
+        nav a:hover {
+            background-color: #e0e0e0;
+            border-left: 4px solid #007bff;
+            color: #000;
+        }
+
+/* Nội dung chính */
+main {
+    flex-grow: 1;
+    background-color: #ffffff;
+    color: #212529;
+    border-left: 1px solid #ddd;
+}
+
+.main1 {
+    padding: 20px 30px;
+}
+/* Footer luôn ở đáy */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: auto; /* Quan trọng: đẩy footer xuống dưới */
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .header-content h2 {
+        margin: 0;
+    }
+
+.user-info {
+    font-size: 14px;
+}
+
+    .user-info a {
+        color: white;
+        margin-left: 10px;
+        text-decoration: underline;
+    }
+
+.btn-start {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+    .btn-start:hover {
+        background-color: #0056b3;
+    }
+
+.student-info-box {
+    background-color: #f5f5f5;
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .info-list li {
+        margin-bottom: 6px;
+    }
+
+.guide-box {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
 }

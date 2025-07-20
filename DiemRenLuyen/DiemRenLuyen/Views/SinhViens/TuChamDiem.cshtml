@@ -1,0 +1,189 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model DiemRenLuyen.Models.SinhVienViewModels.TuChamDiemViewModel
+
+@{
+    ViewData["Title"] = "Tự chấm điểm";
+}
+@{
+    string GetRoman(int number)
+    {
+        string[] romans = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X" };
+        return number >= 1 && number <= romans.Length ? romans[number - 1] : number.ToString();
+    }
+
+    int romanIndex = 0;
+    int numberIndex = 0;
+}
+<partial name="_ValidationScriptsPartial" />
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <h2>Hệ thống chấm điểm rèn luyện</h2>
+                <div class="user-info">
+                    <span>@Model.HoTen</span>
+                    <a asp-controller="TaiKhoans" asp-action="DangXuat">Đăng xuất</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <nav>
+                <a asp-controller="SinhViens" asp-action="Index">Trang chủ</a>
+                <a asp-controller="SinhViens" asp-action="TuChamDiem">Tự chấm điểm</a>
+                <a asp-controller="SinhViens" asp-action="KetQua">Kết quả</a>
+            </nav>
+
+            <main class="main1">
+                <h2>Tự chấm điểm rèn luyện</h2>
+
+                <p><strong>Sinh viên:</strong> @Model.HoTen</p>
+                <p><strong>Mã SV:</strong> @Model.MaSV</p>
+                <p><strong>Lớp:</strong> @Model.Lop</p>
+                <p><strong>Đợt đánh giá:</strong> @Model.DotDanhGia</p>
+                <p><strong>Ngày nộp:</strong> @Model.NgayNop.ToShortDateString()</p>
+
+                <form asp-action="TuChamDiem" method="post" enctype="multipart/form-data">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Tiêu chí</th>
+                                <th>Điểm tối đa</th>
+                                <th>Điểm tự chấm</th>
+                                <th>Minh chứng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.DanhSachTieuChi.Count; i++)
+                            {
+                                var tc = Model.DanhSachTieuChi[i];
+                                var maTC = tc.MaTC;
+                                string stt = "";
+
+                                if (maTC == "A" || maTC == "B" || maTC == "C")
+                                {
+                                    stt = maTC;
+                                    romanIndex = 0;
+                                    numberIndex = 0;
+                                }
+                                else if (maTC.StartsWith("B") && maTC.Length == 2)
+                                {
+                                    // B1, B2, B3,...
+                                    romanIndex++;
+                                    numberIndex = 0;
+                                    stt = GetRoman(romanIndex);
+                                }
+                                else if (maTC.StartsWith("B") && maTC.Length == 3)
+                                {
+                                    // B11, B12,...
+                                    numberIndex++;
+                                    stt = numberIndex.ToString();
+                                }
+                                else if (maTC.StartsWith("B") && maTC.Length > 3)
+                                {
+                                    // B111, B112,...
+                                    stt = "-";
+                                }
+                                else if (maTC.StartsWith("C") && maTC.Length == 2)
+                                {
+                                    // C1, C2, C3,...
+                                    romanIndex++;
+                                    numberIndex = 0;
+                                    stt = GetRoman(romanIndex);
+                                }
+                                else if (maTC.StartsWith("C") && maTC.Length == 3)
+                                {
+                                    numberIndex++;
+                                    stt = numberIndex.ToString();
+                                }
+                                else if (maTC.StartsWith("C") && maTC.Length > 3)
+                                {
+                                    stt = "-";
+                                }
+
+                                <tr>
+                                    <td>@stt</td>
+                                    <td>
+                                        @tc.TenTieuChi
+                                        <input type="hidden" asp-for="DanhSachTieuChi[@i].MaTC" />
+                                        <input type="hidden" asp-for="DanhSachTieuChi[@i].TenTieuChi" />
+                                        <input type="hidden" asp-for="DanhSachTieuChi[@i].MucDiemToiDa" />
+                                    </td>
+                                    <td>@tc.MucDiemToiDa</td>
+                                    <td>
+                                        <input asp-for="DanhSachTieuChi[@i].DiemTuCham"
+                                               class="form-control diem-input"
+                                               data-index="@i" />
+                                        <span asp-validation-for="DanhSachTieuChi[@i].DiemTuCham" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <input asp-for="DanhSachTieuChi[@i].FileMinhChung"
+                                               type="file"
+                                               class="form-control minhchung-input"
+                                               data-index="@i"
+                                               disabled />
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                    @* Ẩn thông tin sinh viên *@
+                    <input type="hidden" asp-for="MaSV" />
+                    <input type="hidden" asp-for="HoTen" />
+                    <input type="hidden" asp-for="Lop" />
+                    <input type="hidden" asp-for="DotDanhGia" />
+                    <input type="hidden" asp-for="NgayNop" />
+
+                    <button type="submit" class="btn btn-success">Nộp phiếu tự đánh giá</button>
+                </form>
+            </main>
+        </div>
+
+        <footer>
+            © 2025 – Hệ thống chấm điểm rèn luyện
+        </footer>
+    </div>
+</body>
+<script>
+    // 1. Đợi trang web load xong thì mới chạy đoạn bên trong
+    document.addEventListener('DOMContentLoaded', function () {
+
+        // 2. Tìm tất cả ô nhập điểm tự chấm
+        const diemInputs = document.querySelectorAll('.diem-input');
+
+        // 3. Với mỗi ô nhập điểm...
+        diemInputs.forEach(input => {
+
+            // 4. Khi người dùng gõ số vào ô nhập điểm
+            input.addEventListener('input', function () {
+
+                // 5. Lấy chỉ số index của tiêu chí hiện tại (i)
+                const index = this.dataset.index;
+
+                // 6. Lấy giá trị điểm người dùng vừa nhập
+                const diem = parseFloat(this.value);
+
+                // 7. Tìm ô file minh chứng tương ứng với tiêu chí đang nhập
+                const fileInput = document.querySelector(`.minhchung-input[data-index="${index}"]`);
+
+                // 8. Nếu điểm > 0 → cho chọn file, ngược lại → khóa lại
+                if (!isNaN(diem) && diem > 0) {
+                    fileInput.removeAttribute('disabled'); // Bật ô file lên
+                } else {
+                    fileInput.value = ""; // Xóa file nếu có
+                    fileInput.setAttribute('disabled', 'disabled'); // Khóa lại
+                }
+            });
+        });
+    });
+</script>
+
+
+
+

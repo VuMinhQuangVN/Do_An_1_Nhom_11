@@ -1,6 +1,7 @@
 ﻿using DiemRenLuyen.Data;
 using DiemRenLuyen.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 
 namespace DiemRenLuyen.Controllers
 {
@@ -22,6 +23,7 @@ namespace DiemRenLuyen.Controllers
             var user = _context.TaiKhoan.FirstOrDefault(x => x.TenDangNhap == model.TenDangNhap && x.MatKhau == model.MatKhau);
             if (user != null)
             {
+                HttpContext.Session.SetString("Ma", user.TenDangNhap);
                 // Đăng nhập thành công → chuyển trang theo vai trò
                 if (user.VaiTro == "SV")
                     return RedirectToAction("Index", "SinhViens");  // Chưa có controller này thì sẽ báo lỗi

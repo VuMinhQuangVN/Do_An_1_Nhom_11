@@ -1,0 +1,66 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model DiemRenLuyen.Models.SinhVienModels.SinhVien
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <h2>Hệ thống chấm điểm rèn luyện</h2>
+                <div class="user-info">
+                    <span>@Model.HoTen</span>
+                    <a asp-controller="TaiKhoans" asp-action="Index">Đăng xuất</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <nav>
+                <a asp-controller="SinhViens" asp-action="Index">Trang chủ</a>
+                <a asp-controller="SinhViens" asp-action="TuChamDiem">Tự chấm điểm</a>
+                <a asp-controller="SinhViens" asp-action="KetQua">Kết quả</a>
+            </nav>
+
+            <main class="main1">
+                <h2>🎓 Chào mừng bạn đến với Hệ thống chấm điểm rèn luyện</h2>
+
+                <div class="student-info-box">
+                    <h4>🔍 Thông tin sinh viên</h4>
+                    <ul class="info-list">
+                        <li><strong>Họ tên:</strong> @Model.HoTen</li>
+                        <li><strong>Mã SV:</strong> @Model.MaSV</li>
+                        <li><strong>Lớp:</strong> @Model.MaLop</li>
+                        <li><strong>Khoa:</strong> Công nghệ thông tin</li>
+                        <li><strong>Giới tính:</strong> @(Model.GioiTinh ? "Nam" : "Nữ")</li>
+                        <li><strong>Ngày sinh:</strong> @Model.NgaySinh.ToString("dd/MM/yyyy")</li>
+                        <li><strong>Quê quán:</strong> @Model.QueQuan</li>
+                    </ul>
+                </div>
+
+                <hr />
+
+                <div class="guide-box">
+                    <h4>📘 Hướng dẫn nhanh</h4>
+                    <ul>
+                        <li>👉 Vào mục <strong>"Tự chấm điểm"</strong> để bắt đầu đánh giá</li>
+                        <li>📎 Nộp các minh chứng tương ứng theo từng tiêu chí</li>
+                        <li>🕒 Theo dõi kết quả tại mục <strong>"Kết quả"</strong></li>
+                    </ul>
+                </div>
+
+                <a href="/SinhViens/TuChamDiem" class="btn-start">🚀 Bắt đầu tự chấm điểm</a>
+            </main>
+        </div>
+
+        <footer>
+            © 2025 – Hệ thống chấm điểm rèn luyện
+        </footer>
+    </div>
+</body>
+
+
+
+

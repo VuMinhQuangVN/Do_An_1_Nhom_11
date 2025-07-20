@@ -3,24 +3,80 @@
   "WorkspaceRootPath": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\giangviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\giangviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\giangviens\\duyetphieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\giangviens\\duyetphieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\giangviens\\danhsachphieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\giangviens\\danhsachphieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\giangviens\\daduyet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\giangviens\\daduyet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\sinhviens\\tuchamdiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\sinhviens\\tuchamdiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\sinhviens\\khongtrongthoigian.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\sinhviens\\khongtrongthoigian.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\sinhviens\\ketqua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\sinhviens\\ketqua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\sinhviens\\guiphanhoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\sinhviens\\guiphanhoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\sinhviens\\dadanhgia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\sinhviens\\dadanhgia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\sinhviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\sinhviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\controllers\\giangvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\controllers\\giangvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\controllers\\sinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\controllers\\sinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\sinhvienviewmodels\\phanhoiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\sinhvienviewmodels\\phanhoiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\sinhvienviewmodels\\ketquaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\sinhvienviewmodels\\ketquaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\giangvienmodels\\duyetphieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\giangvienmodels\\duyetphieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\sinhvienmodels\\phieudanhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\sinhvienmodels\\phieudanhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\sinhvienmodels\\minhchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\sinhvienmodels\\minhchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\controllers\\taikhoanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +87,72 @@
       "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\data\\diemrenluyencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\sinhvienviewmodels\\tuchamdiemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\sinhvienviewmodels\\tuchamdiemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\sinhvienmodels\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\sinhvienmodels\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\sinhvienmodels\\khoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\sinhvienmodels\\khoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\sinhvienmodels\\dotdanhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\sinhvienmodels\\dotdanhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\sinhvienmodels\\chitietphieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\sinhvienmodels\\chitietphieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\sinhvienmodels\\lop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\sinhvienmodels\\lop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\sinhvienmodels\\tieuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\sinhvienmodels\\tieuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\taikhoans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\taikhoans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\sinhvienmodels\\giangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\sinhvienmodels\\giangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\migrations\\20250720013102_seedtieuchidata20.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\migrations\\20250720013102_seedtieuchidata20.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\migrations\\20250719053822_seedtieuchidata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\migrations\\20250719053822_seedtieuchidata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\migrations\\20250718100950_seedinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\migrations\\20250718100950_seedinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\migrations\\20250715072106_seedtaikhoan4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\migrations\\20250715072106_seedtaikhoan4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250715070736_SeedTaiKhoan1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DiemRenLuyen\\Migrations\\20250715070736_SeedTaiKhoan1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|f:\\nam_hoc_2024_2025_hkp\\do_an_1\\diemrenluyen\\diemrenluyen\\diemrenluyen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1108318C-9C4B-47EB-A5C3-DC12690F6157}|DiemRenLuyen\\DiemRenLuyen.csproj|solutionrelative:diemrenluyen\\diemrenluyen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,11 +162,456 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\GiangViens\\Index.cshtml",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\GiangViens\\Index.cshtml",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\GiangViens\\Index.cshtml",
+              "RelativeToolTip": "DiemRenLuyen\\Views\\GiangViens\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T17:15:35.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DuyetPhieu.cshtml",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\GiangViens\\DuyetPhieu.cshtml",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\GiangViens\\DuyetPhieu.cshtml",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\GiangViens\\DuyetPhieu.cshtml",
+              "RelativeToolTip": "DiemRenLuyen\\Views\\GiangViens\\DuyetPhieu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T17:15:31.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DanhSachPhieu.cshtml",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\GiangViens\\DanhSachPhieu.cshtml",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\GiangViens\\DanhSachPhieu.cshtml",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\GiangViens\\DanhSachPhieu.cshtml",
+              "RelativeToolTip": "DiemRenLuyen\\Views\\GiangViens\\DanhSachPhieu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T17:15:26.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DaDuyet.cshtml",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\GiangViens\\DaDuyet.cshtml",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\GiangViens\\DaDuyet.cshtml",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\GiangViens\\DaDuyet.cshtml",
+              "RelativeToolTip": "DiemRenLuyen\\Views\\GiangViens\\DaDuyet.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T17:15:21.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\SinhViens\\Index.cshtml",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\SinhViens\\Index.cshtml",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\SinhViens\\Index.cshtml",
+              "RelativeToolTip": "DiemRenLuyen\\Views\\SinhViens\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T16:02:45.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DaDanhGia.cshtml",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\SinhViens\\DaDanhGia.cshtml",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\SinhViens\\DaDanhGia.cshtml",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\SinhViens\\DaDanhGia.cshtml",
+              "RelativeToolTip": "DiemRenLuyen\\Views\\SinhViens\\DaDanhGia.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T04:29:54.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GuiPhanHoi.cshtml",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\SinhViens\\GuiPhanHoi.cshtml",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\SinhViens\\GuiPhanHoi.cshtml",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\SinhViens\\GuiPhanHoi.cshtml",
+              "RelativeToolTip": "DiemRenLuyen\\Views\\SinhViens\\GuiPhanHoi.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T14:51:54.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KetQua.cshtml",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\SinhViens\\KetQua.cshtml",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\SinhViens\\KetQua.cshtml",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\SinhViens\\KetQua.cshtml",
+              "RelativeToolTip": "DiemRenLuyen\\Views\\SinhViens\\KetQua.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-19T06:23:12.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KhongTrongThoiGian.cshtml",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\SinhViens\\KhongTrongThoiGian.cshtml",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\SinhViens\\KhongTrongThoiGian.cshtml",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\SinhViens\\KhongTrongThoiGian.cshtml",
+              "RelativeToolTip": "DiemRenLuyen\\Views\\SinhViens\\KhongTrongThoiGian.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T04:21:43.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TuChamDiem.cshtml",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\SinhViens\\TuChamDiem.cshtml",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\SinhViens\\TuChamDiem.cshtml",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\SinhViens\\TuChamDiem.cshtml",
+              "RelativeToolTip": "DiemRenLuyen\\Views\\SinhViens\\TuChamDiem.cshtml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAACgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-19T01:35:53.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\wwwroot\\css\\site.css",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "DiemRenLuyen\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-18T15:58:42.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DiemRenLuyen\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T16:06:47.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GiangViensController.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Controllers\\GiangViensController.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Controllers\\GiangViensController.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Controllers\\GiangViensController.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Controllers\\GiangViensController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAcwF8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T15:57:32.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PhanHoiViewModel.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienViewModels\\PhanHoiViewModel.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\SinhVienViewModels\\PhanHoiViewModel.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienViewModels\\PhanHoiViewModel.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\SinhVienViewModels\\PhanHoiViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T14:43:27.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "KetQuaViewModel.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienViewModels\\KetQuaViewModel.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\SinhVienViewModels\\KetQuaViewModel.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienViewModels\\KetQuaViewModel.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\SinhVienViewModels\\KetQuaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T06:21:56.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SinhViensController.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Controllers\\SinhViensController.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Controllers\\SinhViensController.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Controllers\\SinhViensController.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Controllers\\SinhViensController.cs",
+              "ViewState": "AgIAACQBAAAAAAAAAAAcwD8BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:05:03.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DuyetPhieu.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\GiangVienModels\\DuyetPhieu.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\GiangVienModels\\DuyetPhieu.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\GiangVienModels\\DuyetPhieu.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\GiangVienModels\\DuyetPhieu.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T10:21:40.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PhieuDanhGia.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\PhieuDanhGia.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\SinhVienModels\\PhieuDanhGia.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\PhieuDanhGia.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\SinhVienModels\\PhieuDanhGia.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwCYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T00:26:26.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MinhChung.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\MinhChung.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\SinhVienModels\\MinhChung.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\MinhChung.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\SinhVienModels\\MinhChung.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T00:59:38.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TaiKhoansController.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Controllers\\TaiKhoansController.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Controllers\\TaiKhoansController.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Controllers\\TaiKhoansController.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Controllers\\TaiKhoansController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:41:08.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DiemRenLuyenContext.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Data\\DiemRenLuyenContext.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Data\\DiemRenLuyenContext.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Data\\DiemRenLuyenContext.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Data\\DiemRenLuyenContext.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAowD8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T01:02:58.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TuChamDiemViewModel.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienViewModels\\TuChamDiemViewModel.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\SinhVienViewModels\\TuChamDiemViewModel.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienViewModels\\TuChamDiemViewModel.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\SinhVienViewModels\\TuChamDiemViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T01:33:27.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\SinhVien.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\SinhVienModels\\SinhVien.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\SinhVien.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\SinhVienModels\\SinhVien.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T00:18:51.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Khoa.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\Khoa.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\SinhVienModels\\Khoa.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\Khoa.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\SinhVienModels\\Khoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T00:32:16.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DotDanhGia.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\DotDanhGia.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\SinhVienModels\\DotDanhGia.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\DotDanhGia.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\SinhVienModels\\DotDanhGia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T01:19:34.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChiTietPhieu.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\ChiTietPhieu.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\SinhVienModels\\ChiTietPhieu.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\ChiTietPhieu.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\SinhVienModels\\ChiTietPhieu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T00:57:14.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Lop.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\Lop.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\SinhVienModels\\Lop.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\Lop.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\SinhVienModels\\Lop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T00:31:38.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TieuChi.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\TieuChi.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\SinhVienModels\\TieuChi.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\TieuChi.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\SinhVienModels\\TieuChi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T01:09:41.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TaiKhoan.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\TaiKhoan.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\TaiKhoan.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\TaiKhoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:41:48.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\TaiKhoans\\Index.cshtml",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\TaiKhoans\\Index.cshtml",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\TaiKhoans\\Index.cshtml",
+              "RelativeToolTip": "DiemRenLuyen\\Views\\TaiKhoans\\Index.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwDUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T16:39:59.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GiangVien.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\GiangVien.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\SinhVienModels\\GiangVien.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\SinhVienModels\\GiangVien.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\SinhVienModels\\GiangVien.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T00:32:48.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250720013102_SeedTieuChiData20.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250720013102_SeedTieuChiData20.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Migrations\\20250720013102_SeedTieuChiData20.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250720013102_SeedTieuChiData20.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Migrations\\20250720013102_SeedTieuChiData20.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T01:31:03.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250719053822_SeedTieuChiData.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250719053822_SeedTieuChiData.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Migrations\\20250719053822_SeedTieuChiData.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250719053822_SeedTieuChiData.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Migrations\\20250719053822_SeedTieuChiData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T05:38:22.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\ErrorViewModel.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T05:25:42.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Program.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Program.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Program.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T01:06:35.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250718100950_SeedInitialData.cs",
+              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250718100950_SeedInitialData.cs",
+              "RelativeDocumentMoniker": "DiemRenLuyen\\Migrations\\20250718100950_SeedInitialData.cs",
+              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250718100950_SeedInitialData.cs",
+              "RelativeToolTip": "DiemRenLuyen\\Migrations\\20250718100950_SeedInitialData.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:09:50.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\Home\\Index.cshtml",
@@ -70,148 +619,19 @@
               "RelativeToolTip": "DiemRenLuyen\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-15T07:41:38.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T16:06:36.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "DiemRenLuyen\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-15T07:41:34.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TaiKhoansController.cs",
-              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Controllers\\TaiKhoansController.cs",
-              "RelativeDocumentMoniker": "DiemRenLuyen\\Controllers\\TaiKhoansController.cs",
-              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Controllers\\TaiKhoansController.cs",
-              "RelativeToolTip": "DiemRenLuyen\\Controllers\\TaiKhoansController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T07:36:50.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\TaiKhoans\\Index.cshtml",
-              "RelativeDocumentMoniker": "DiemRenLuyen\\Views\\TaiKhoans\\Index.cshtml",
-              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Views\\TaiKhoans\\Index.cshtml",
-              "RelativeToolTip": "DiemRenLuyen\\Views\\TaiKhoans\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-15T07:35:12.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "DiemRenLuyen\\appsettings.Development.json",
-              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\appsettings.Development.json",
-              "RelativeToolTip": "DiemRenLuyen\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-15T07:02:08.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Program.cs",
-              "RelativeDocumentMoniker": "DiemRenLuyen\\Program.cs",
-              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Program.cs",
-              "RelativeToolTip": "DiemRenLuyen\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T07:02:05.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 37,
               "Title": "20250715072106_SeedTaiKhoan4.cs",
               "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250715072106_SeedTaiKhoan4.cs",
               "RelativeDocumentMoniker": "DiemRenLuyen\\Migrations\\20250715072106_SeedTaiKhoan4.cs",
               "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250715072106_SeedTaiKhoan4.cs",
               "RelativeToolTip": "DiemRenLuyen\\Migrations\\20250715072106_SeedTaiKhoan4.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T07:21:06.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\appsettings.json",
-              "RelativeDocumentMoniker": "DiemRenLuyen\\appsettings.json",
-              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\appsettings.json",
-              "RelativeToolTip": "DiemRenLuyen\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-15T07:02:09.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DiemRenLuyenContext.cs",
-              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Data\\DiemRenLuyenContext.cs",
-              "RelativeDocumentMoniker": "DiemRenLuyen\\Data\\DiemRenLuyenContext.cs",
-              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Data\\DiemRenLuyenContext.cs",
-              "RelativeToolTip": "DiemRenLuyen\\Data\\DiemRenLuyenContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T07:01:24.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaiKhoan.cs",
-              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\TaiKhoan.cs",
-              "RelativeDocumentMoniker": "DiemRenLuyen\\Models\\TaiKhoan.cs",
-              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Models\\TaiKhoan.cs",
-              "RelativeToolTip": "DiemRenLuyen\\Models\\TaiKhoan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T06:56:20.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20250715070736_SeedTaiKhoan1.cs",
-              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250715070736_SeedTaiKhoan1.cs",
-              "RelativeDocumentMoniker": "DiemRenLuyen\\Migrations\\20250715070736_SeedTaiKhoan1.cs",
-              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\Migrations\\20250715070736_SeedTaiKhoan1.cs",
-              "RelativeToolTip": "DiemRenLuyen\\Migrations\\20250715070736_SeedTaiKhoan1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T07:07:37.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DiemRenLuyen.csproj",
-              "DocumentMoniker": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\DiemRenLuyen.csproj",
-              "RelativeDocumentMoniker": "DiemRenLuyen\\DiemRenLuyen.csproj",
-              "ToolTip": "F:\\Nam_hoc_2024_2025_HKP\\Do_An_1\\DiemRenLuyen\\DiemRenLuyen\\DiemRenLuyen.csproj",
-              "RelativeToolTip": "DiemRenLuyen\\DiemRenLuyen.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-15T07:00:49.766Z"
+              "WhenOpened": "2025-07-18T09:14:32.267Z"
             }
           ]
         }

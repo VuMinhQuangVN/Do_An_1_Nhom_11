@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c2tiyv64ts</Fingerprint>
-      <Integrity>pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=</Integrity>
+      <Fingerprint>yaqikmty98</Fingerprint>
+      <Integrity>qlHqvr3u6sg3dSKwxh2DFki9wSGPme3xACBY2i+YSVk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -1097,6 +1097,132 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\minhchung\37c89de19c684a95b8b8576436e5da78_Screenshot 2023-04-07 083348.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DiemRenLuyen</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DiemRenLuyen</BasePath>
+      <RelativePath>minhchung/37c89de19c684a95b8b8576436e5da78_Screenshot 2023-04-07 083348.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>u6zlw7cu8u</Fingerprint>
+      <Integrity>mn5xuzVRjpOuQlN4Qg4ZveKhXPB3NBd479URLNVCyJM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\minhchung\37c89de19c684a95b8b8576436e5da78_Screenshot 2023-04-07 083348.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\minhchung\8383ca3ba3804d4fa5216a8dc2a6cf2e_Screenshot 2023-04-22 072228.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DiemRenLuyen</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DiemRenLuyen</BasePath>
+      <RelativePath>minhchung/8383ca3ba3804d4fa5216a8dc2a6cf2e_Screenshot 2023-04-22 072228.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>azqwrcxy8k</Fingerprint>
+      <Integrity>lovoozD6PW0E4FwnRSaFKLqBAIp0cOd1I577ryVBUKo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\minhchung\8383ca3ba3804d4fa5216a8dc2a6cf2e_Screenshot 2023-04-22 072228.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\minhchung\86263509a6d34e55ad36481d9e6146e0_dac_ta.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DiemRenLuyen</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DiemRenLuyen</BasePath>
+      <RelativePath>minhchung/86263509a6d34e55ad36481d9e6146e0_dac_ta.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1zfyjuedbb</Fingerprint>
+      <Integrity>XdAxGuHx2Igij9q+nbRqTgfo/OCTKMxMuJrZ+dRXr8Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\minhchung\86263509a6d34e55ad36481d9e6146e0_dac_ta.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\minhchung\8cbb72cac45a4182977c73f95429b873_MucDinh.drawio (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DiemRenLuyen</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DiemRenLuyen</BasePath>
+      <RelativePath>minhchung/8cbb72cac45a4182977c73f95429b873_MucDinh.drawio (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xk35203tc2</Fingerprint>
+      <Integrity>YVOl/wZOT3smXRiDNVxeE/XXzeqQwijGi+cTla47wCI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\minhchung\8cbb72cac45a4182977c73f95429b873_MucDinh.drawio (1).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\minhchung\a102087fea394e7e99cf1cd81e9542a2_MucDinh.drawio (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DiemRenLuyen</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DiemRenLuyen</BasePath>
+      <RelativePath>minhchung/a102087fea394e7e99cf1cd81e9542a2_MucDinh.drawio (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xk35203tc2</Fingerprint>
+      <Integrity>YVOl/wZOT3smXRiDNVxeE/XXzeqQwijGi+cTla47wCI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\minhchung\a102087fea394e7e99cf1cd81e9542a2_MucDinh.drawio (1).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\minhchung\c7bb6f1d1d8545f3881f3c0c9f627b77_MucDinh.drawio (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DiemRenLuyen</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DiemRenLuyen</BasePath>
+      <RelativePath>minhchung/c7bb6f1d1d8545f3881f3c0c9f627b77_MucDinh.drawio (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xk35203tc2</Fingerprint>
+      <Integrity>YVOl/wZOT3smXRiDNVxeE/XXzeqQwijGi+cTla47wCI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\minhchung\c7bb6f1d1d8545f3881f3c0c9f627b77_MucDinh.drawio (1).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\phanhoi\Screenshot 2023-05-31 203237.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DiemRenLuyen</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DiemRenLuyen</BasePath>
+      <RelativePath>phanhoi/Screenshot 2023-05-31 203237.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vuh6qo0ip1</Fingerprint>
+      <Integrity>GSbUJmAm+8b0KTYf2u4rt+VvgrGFet+gbZlcX8LE2ns=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\phanhoi\Screenshot 2023-05-31 203237.png'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

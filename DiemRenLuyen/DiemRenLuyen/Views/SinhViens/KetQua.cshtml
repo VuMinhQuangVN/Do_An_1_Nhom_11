@@ -1,0 +1,164 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model DiemRenLuyen.Models.SinhVienViewModels.KetQuaViewModel
+
+@{
+    ViewData["Title"] = "Kết quả rèn luyện";
+
+    string GetRoman(int number)
+    {
+        string[] romans = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X" };
+        return number >= 1 && number <= romans.Length ? romans[number - 1] : number.ToString();
+    }
+
+    int romanIndex = 0;
+    int numberIndex = 0;
+}
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <h2>Hệ thống chấm điểm rèn luyện</h2>
+                <div class="user-info">
+                    <span>@Model.HoTen</span>
+                    <a asp-controller="TaiKhoans" asp-action="Index">Đăng xuất</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <nav>
+                <a asp-controller="SinhViens" asp-action="Index">Trang chủ</a>
+                <a asp-controller="SinhViens" asp-action="TuChamDiem">Tự chấm điểm</a>
+                <a asp-controller="SinhViens" asp-action="KetQua">Kết quả</a>
+            </nav>
+
+            <main class="main1">
+                <h3>Kết quả rèn luyện</h3>
+
+                <form method="get" asp-action="KetQua">
+                    <label>Chọn đợt đánh giá:</label>
+                    <select name="maDot" onchange="this.form.submit()" class="form-control" style="width:300px">
+                        @foreach (var dot in Model.DanhSachDot)
+                        {
+                            var isSelected = dot.MaDot == Model.MaDotDuocChon ? "selected" : "";
+                            <option value="@dot.MaDot" selected="@isSelected">
+                                @dot.HocKy - @dot.NamHoc
+                            </option>
+                        }
+                    </select>
+                </form>
+
+                <hr />
+
+                @if (Model.PhanHoi != null)
+                {
+                    <p><strong>Đợt đánh giá:</strong> @Model.PhanHoi.DotDanhGia</p>
+                    <p><strong>Tổng điểm:</strong> <span style="color:green; font-weight:bold;">@Model.PhanHoi.TongDiem</span></p>
+
+                    <p><strong>Trạng thái phiếu:</strong></p>
+                    <ul>
+                        <li>Giảng viên đã duyệt: <strong>@(Model.TrangThaiDuyetGV ? "✔️ Có" : "❌ Chưa")</strong></li>
+                        <li>Đã gửi lên Khoa: <strong>@(Model.TrangThaiGuiKhoa ? "✔️ Có" : "❌ Chưa")</strong></li>
+                        <li>Sinh viên đã phản hồi: <strong>@(Model.PhanHoiTuSinhVien ? "✔️ Rồi" : "❌ Chưa")</strong></li>
+                        <li>Giảng viên đã xử lý phản hồi: <strong>@(Model.GiangVien_DaXetPhanHoi ? "✔️ Rồi" : "❌ Chưa")</strong></li>
+                    </ul>
+
+                    @* Nút phản hồi (chỉ hiện nếu chưa phản hồi, đã được duyệt, nhưng chưa gửi lên khoa) *@
+                    @if (Model.TrangThaiDuyetGV && !Model.TrangThaiGuiKhoa && !Model.PhanHoiTuSinhVien)
+                    {
+                        <form method="post" asp-action="GuiPhanHoi">
+                            <input type="hidden" name="maPhieu" value="@Model.PhanHoi.MaPhieu" />
+                            <button type="submit" class="btn btn-warning">Gửi phản hồi / khiếu nại</button>
+                        </form>
+                    }
+
+                    <hr />
+
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Tên tiêu chí</th>
+                                <th>Điểm sinh viên</th>
+                                <th>Minh chứng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.ChiTiet.Count; i++)
+                            {
+                                var ct = Model.ChiTiet[i];
+                                var maTC = ct.MaTC;
+                                string stt = "";
+
+                                if (maTC == "A" || maTC == "B" || maTC == "C")
+                                {
+                                    stt = maTC;
+                                    romanIndex = 0;
+                                    numberIndex = 0;
+                                }
+                                else if (maTC.StartsWith("B") && maTC.Length == 2)
+                                {
+                                    romanIndex++;
+                                    numberIndex = 0;
+                                    stt = GetRoman(romanIndex);
+                                }
+                                else if (maTC.StartsWith("B") && maTC.Length == 3)
+                                {
+                                    numberIndex++;
+                                    stt = numberIndex.ToString();
+                                }
+                                else if (maTC.StartsWith("B") && maTC.Length > 3)
+                                {
+                                    stt = "-";
+                                }
+                                else if (maTC.StartsWith("C") && maTC.Length == 2)
+                                {
+                                    romanIndex++;
+                                    numberIndex = 0;
+                                    stt = GetRoman(romanIndex);
+                                }
+                                else if (maTC.StartsWith("C") && maTC.Length == 3)
+                                {
+                                    numberIndex++;
+                                    stt = numberIndex.ToString();
+                                }
+                                else if (maTC.StartsWith("C") && maTC.Length > 3)
+                                {
+                                    stt = "-";
+                                }
+
+                                <tr>
+                                    <td>@stt</td>
+                                    <td>@ct.TenTieuChi</td>
+                                    <td>@ct.DiemSV</td>
+                                    <td>
+                                        @if (!string.IsNullOrEmpty(ct.TepMinhChung))
+                                        {
+                                            <a href="@ct.TepMinhChung" target="_blank">Xem</a>
+                                        }
+                                        else
+                                        {
+                                            <span>Không có</span>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <p style="color:red;">Chưa có kết quả cho đợt đánh giá này.</p>
+                }
+            </main>
+        </div>
+
+        <footer>
+            © 2025 – Hệ thống chấm điểm rèn luyện
+        </footer>
+    </div>
+</body>

@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model DiemRenLuyen.Models.SinhVienViewModels.PhanHoiViewModel
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <h2>Hệ thống chấm điểm rèn luyện</h2>
+                <div class="user-info">
+                    <span>@Model.HoTen</span>
+                    <a asp-controller="TaiKhoans" asp-action="Index">Đăng xuất</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <nav>
+                <a asp-controller="SinhViens" asp-action="Index">Trang chủ</a>
+                <a asp-controller="SinhViens" asp-action="TuChamDiem">Tự chấm điểm</a>
+                <a asp-controller="SinhViens" asp-action="KetQua">Kết quả</a>
+            </nav>
+
+            <main class="main1">
+                <h3>Gửi phản hồi về kết quả rèn luyện</h3>
+
+                <form asp-action="GuiPhanHoi" method="post" enctype="multipart/form-data">
+                    <input type="hidden" asp-for="MaPhieu" />
+
+                    <div class="form-group">
+                        <label for="NoiDungPhanHoi">Nội dung phản hồi:</label>
+                        <textarea asp-for="NoiDungPhanHoi" class="form-control" rows="5"></textarea>
+                        <span asp-validation-for="NoiDungPhanHoi" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="TepPhanHoi">Tệp đính kèm (nếu có):</label>
+                        <input asp-for="TepPhanHoi" type="file" class="form-control-file" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Gửi phản hồi</button>
+                </form>
+            </main>
+        </div>
+
+        <footer>
+            © 2025 – Hệ thống chấm điểm rèn luyện
+        </footer>
+    </div>
+</body>

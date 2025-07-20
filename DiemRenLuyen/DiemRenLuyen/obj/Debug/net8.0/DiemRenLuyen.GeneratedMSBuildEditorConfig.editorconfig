@@ -20,6 +20,22 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[F:/Nam_hoc_2024_2025_HKP/Do_An_1/DiemRenLuyen/DiemRenLuyen/Views/GiangViens/DaDuyet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbmdWaWVuc1xEYUR1eWV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Nam_hoc_2024_2025_HKP/Do_An_1/DiemRenLuyen/DiemRenLuyen/Views/GiangViens/DanhSachPhieu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbmdWaWVuc1xEYW5oU2FjaFBoaWV1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Nam_hoc_2024_2025_HKP/Do_An_1/DiemRenLuyen/DiemRenLuyen/Views/GiangViens/DuyetPhieu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbmdWaWVuc1xEdXlldFBoaWV1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Nam_hoc_2024_2025_HKP/Do_An_1/DiemRenLuyen/DiemRenLuyen/Views/GiangViens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbmdWaWVuc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/Nam_hoc_2024_2025_HKP/Do_An_1/DiemRenLuyen/DiemRenLuyen/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,6 +50,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/Nam_hoc_2024_2025_HKP/Do_An_1/DiemRenLuyen/DiemRenLuyen/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Nam_hoc_2024_2025_HKP/Do_An_1/DiemRenLuyen/DiemRenLuyen/Views/SinhViens/DaDanhGia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5zXERhRGFuaEdpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Nam_hoc_2024_2025_HKP/Do_An_1/DiemRenLuyen/DiemRenLuyen/Views/SinhViens/GuiPhanHoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5zXEd1aVBoYW5Ib2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Nam_hoc_2024_2025_HKP/Do_An_1/DiemRenLuyen/DiemRenLuyen/Views/SinhViens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Nam_hoc_2024_2025_HKP/Do_An_1/DiemRenLuyen/DiemRenLuyen/Views/SinhViens/KetQua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5zXEtldFF1YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Nam_hoc_2024_2025_HKP/Do_An_1/DiemRenLuyen/DiemRenLuyen/Views/SinhViens/KhongTrongThoiGian.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5zXEtob25nVHJvbmdUaG9pR2lhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Nam_hoc_2024_2025_HKP/Do_An_1/DiemRenLuyen/DiemRenLuyen/Views/SinhViens/TuChamDiem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5zXFR1Q2hhbURpZW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Nam_hoc_2024_2025_HKP/Do_An_1/DiemRenLuyen/DiemRenLuyen/Views/TaiKhoans/Index.cshtml]

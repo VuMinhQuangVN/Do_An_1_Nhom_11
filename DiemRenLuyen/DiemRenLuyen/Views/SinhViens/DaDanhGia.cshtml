@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model DiemRenLuyen.Models.SinhVienViewModels.TuChamDiemViewModel
+
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <h2>Hệ thống chấm điểm rèn luyện</h2>
+                <div class="user-info">
+                    <span>@Model.HoTen</span>
+                    <a asp-controller="TaiKhoans" asp-action="Index">Đăng xuất</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <nav>
+                <a asp-controller="SinhViens" asp-action="Index">Trang chủ</a>
+                <a asp-controller="SinhViens" asp-action="TuChamDiem">Tự chấm điểm</a>
+                <a asp-controller="SinhViens" asp-action="KetQua">Kết quả</a>
+            </nav>
+
+            <main class="main1">
+                <h4>Thông tin sinh viên</h4>
+                <p><strong>Họ tên:</strong> @Model.HoTen</p>
+                <p><strong>Lớp:</strong> @Model.Lop</p>
+                <p><strong>Đợt đánh giá:</strong> @Model.DotDanhGia</p>
+                <p><strong>Ngày nộp:</strong> @Model.NgayNop.ToString("dd/MM/yyyy")</p>
+
+                <div class="alert alert-success">
+                    Bạn đã hoàn thành đánh giá trong đợt này. Cảm ơn bạn!
+                </div>
+            </main>
+        </div>
+
+        <footer>
+            © 2025 – Hệ thống chấm điểm rèn luyện
+        </footer>
+    </div>
+</body>

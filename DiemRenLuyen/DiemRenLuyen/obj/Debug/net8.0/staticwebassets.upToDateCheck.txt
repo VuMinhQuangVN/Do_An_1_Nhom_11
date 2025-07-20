@@ -58,3 +58,10 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\minhchung\37c89de19c684a95b8b8576436e5da78_Screenshot 2023-04-07 083348.png
+wwwroot\minhchung\8383ca3ba3804d4fa5216a8dc2a6cf2e_Screenshot 2023-04-22 072228.png
+wwwroot\minhchung\86263509a6d34e55ad36481d9e6146e0_dac_ta.docx
+wwwroot\minhchung\8cbb72cac45a4182977c73f95429b873_MucDinh.drawio (1).png
+wwwroot\minhchung\a102087fea394e7e99cf1cd81e9542a2_MucDinh.drawio (1).png
+wwwroot\minhchung\c7bb6f1d1d8545f3881f3c0c9f627b77_MucDinh.drawio (1).png
+wwwroot\phanhoi\Screenshot 2023-05-31 203237.png

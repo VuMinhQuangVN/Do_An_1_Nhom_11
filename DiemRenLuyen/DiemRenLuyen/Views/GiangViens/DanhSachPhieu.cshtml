@@ -1,0 +1,110 @@
+﻿@model List<DiemRenLuyen.Models.SinhVienModels.PhieuDanhGia>
+
+@{
+    ViewData["Title"] = "Duyệt phiếu";
+    var dsLop = ViewBag.DanhSachLop as List<DiemRenLuyen.Models.SinhVienModels.Lop>;
+    var dsKhoa = ViewBag.DanhSachKhoa as List<DiemRenLuyen.Models.SinhVienModels.Khoa>;
+    var dsDot = ViewBag.DanhSachDot as List<DiemRenLuyen.Models.SinhVienModels.DotDanhGia>;
+    var lopChon = ViewBag.LopDangChon as string;
+    var khoaChon = ViewBag.KhoaDangChon as string;
+    var dotChon = ViewBag.DotDangChon as string;
+}
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <h2>Hệ thống chấm điểm rèn luyện</h2>
+                <div class="user-info">
+                    <span>@ViewBag.TenGV</span>
+                    <a asp-controller="TaiKhoans" asp-action="Index">Đăng xuất</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <nav>
+                <a asp-controller="GiangViens" asp-action="Index">Trang chủ</a>
+                <a asp-controller="GiangViens" asp-action="DanhSachPhieu">Duyệt phiếu</a>
+                <a asp-controller="GiangViens" asp-action="DaDuyet">Đã duyệt</a>
+            </nav>
+
+            <main class="main1">
+                <h2>📋 Danh sách phiếu tự chấm đang chờ duyệt</h2>
+
+                <form method="get" asp-action="DanhSachPhieu">
+                    <div class="row mb-3">
+                        <div class="col-md-3">
+                            <label class="form-label">Lọc theo lớp:</label>
+                            <select name="maLop" class="form-select" onchange="this.form.submit()">
+                                <option value="">-- Tất cả lớp --</option>
+                                @foreach (var lop in dsLop)
+                                {
+                                    <option value="@lop.MaLop" selected="@(lop.MaLop == lopChon)">
+                                        @lop.TenLop
+                                    </option>
+                                }
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Lọc theo đợt:</label>
+                            <select name="maDot" class="form-select" onchange="this.form.submit()">
+                                <option value="">-- Tất cả đợt --</option>
+                                @foreach (var dot in dsDot)
+                                {
+                                    <option value="@dot.MaDot" selected="@(dot.MaDot == dotChon)">
+                                        @($"{dot.HocKy} - {dot.NamHoc}")
+                                    </option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                </form>
+
+                <table class="table table-bordered">
+                    <thead class="table-light">
+                        <tr>
+                            <th>STT</th>
+                            <th>Mã SV</th>
+                            <th>Họ tên</th>
+                            <th>Lớp</th>
+                            <th>Ngày nộp</th>
+                            <th>Điểm sinh viên</th>
+                            <th>Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.Count == 0)
+                        {
+                            <tr>
+                                <td colspan="6" class="text-danger text-center">Không có phiếu nào chờ duyệt.</td>
+                            </tr>
+                        }
+                        else
+                        {
+                            for (int i = 0; i < Model.Count; i++)
+                            {
+                                var p = Model[i];
+                                <tr>
+                                    <td>@(i + 1)</td>
+                                    <td>@p.MaSV</td>
+                                    <td>@p.SinhVien.HoTen</td>
+                                    <td>@p.SinhVien.Lop.TenLop</td>
+                                    <td>@p.NgayNop.ToString("dd/MM/yyyy")</td>
+                                    <td>@p.TongDiem</td>
+                                    <td>
+                                        <a asp-action="DuyetPhieu" asp-route-maPhieu="@p.MaPhieu" class="btn btn-primary btn-sm">Duyệt</a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </main>
+        </div>
+
+        <footer>
+            © 2025 – Hệ thống chấm điểm rèn luyện
+        </footer>
+    </div>
+</body>
