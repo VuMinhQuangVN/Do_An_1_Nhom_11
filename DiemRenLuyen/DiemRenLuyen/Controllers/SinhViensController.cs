@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Http;
 using DiemRenLuyen.Models.SinhVienViewModels;
 using DiemRenLuyen.Models.SinhVienModels;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using DiemRenLuyen.Models.GiangVienModels;
 
 namespace DiemRenLuyen.Controllers
 {
@@ -275,8 +276,11 @@ namespace DiemRenLuyen.Controllers
             }
 
             // Lấy trạng thái duyệt khoa từ bảng DuyetPhieu (nếu có)
-            var duyetPhieu = _context.DuyetPhieu
-                .FirstOrDefault(dp => dp.MaPhieu == phieu.MaPhieu);
+            DuyetPhieu? duyetPhieu = null;
+            if (phieu != null)
+            {
+                duyetPhieu = _context.DuyetPhieu.FirstOrDefault(dp => dp.MaPhieu == phieu.MaPhieu);
+            }
 
             var vm = new KetQuaViewModel
             {

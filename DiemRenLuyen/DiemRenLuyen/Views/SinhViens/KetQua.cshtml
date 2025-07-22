@@ -44,11 +44,20 @@
                     <select name="maDot" onchange="this.form.submit()" class="form-control" style="width:300px">
                         @foreach (var dot in Model.DanhSachDot)
                         {
-                            var isSelected = dot.MaDot == Model.MaDotDuocChon ? "selected" : "";
-                            <option value="@dot.MaDot" selected="@isSelected">
-                                @dot.HocKy - @dot.NamHoc
-                            </option>
+                            if (dot.MaDot == Model.MaDotDuocChon)
+                            {
+                                <option value="@dot.MaDot" selected="selected">
+                                    @dot.HocKy - @dot.NamHoc
+                                </option>
+                            }
+                            else
+                            {
+                                <option value="@dot.MaDot">
+                                    @dot.HocKy - @dot.NamHoc
+                                </option>
+                            }
                         }
+
                     </select>
                 </form>
 
@@ -152,7 +161,10 @@
                 }
                 else
                 {
-                    <p style="color:red;">Chưa có kết quả cho đợt đánh giá này.</p>
+                    <p style="color:red;">
+                        Bạn chưa thực hiện tự chấm điểm cho đợt <strong>@Model.MaDotDuocChon</strong>.<br />
+                        Hãy vào mục <a asp-controller="SinhViens" asp-action="TuChamDiem">Tự chấm điểm</a> để bắt đầu đánh giá.
+                    </p>
                 }
             </main>
         </div>

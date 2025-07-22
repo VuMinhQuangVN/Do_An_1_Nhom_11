@@ -159,7 +159,8 @@ namespace DiemRenLuyen.Controllers
                 NgayDuyet = DateTime.Now,
                 DiemDeXuat = tong,
                 GhiChu = model.GhiChu,
-                TrangThai = true
+                TrangThai = false 
+                //Sửa cái này
             });
 
             await _context.SaveChangesAsync();
@@ -196,18 +197,30 @@ namespace DiemRenLuyen.Controllers
             if (string.IsNullOrEmpty(maGV)) return RedirectToAction("Index", "TaiKhoans");
 
             // Lấy tất cả phiếu đã duyệt nhưng chưa gửi của lớp đó
+            //var danhSach = _context.DuyetPhieu
+            //    .Where(dp => dp.PhieuDanhGia.SinhVien.MaLop == maLop
+            //              && dp.MaGV == maGV
+            //              && dp.TrangThai == false) // chưa gửi
+            //    .ToList();
             var danhSach = _context.DuyetPhieu
+                .Include(dp => dp.PhieuDanhGia)
+                .ThenInclude(pd => pd.SinhVien)
                 .Where(dp => dp.PhieuDanhGia.SinhVien.MaLop == maLop
-                          && dp.MaGV == maGV
-                          && dp.TrangThai == false) // chưa gửi
-                .ToList();
+                    && dp.MaGV == maGV
+                    && dp.TrangThai == false)
+                    .ToList();
 
-            // Cập nhật trạng thái gửi
+            // ✅ DEBUG: Kiểm tra có lấy đúng dữ liệu không
+            Console.WriteLine($"maGV session: {maGV}");
+            Console.WriteLine($"maLop: {maLop}");
+            Console.WriteLine($"Số lượng danh sách: {danhSach.Count}");
+
+            // ✅ Xem từng mã phiếu lấy được
             foreach (var item in danhSach)
             {
-                item.TrangThai = true; // true = ĐÃ gửi
+                Console.WriteLine($"→ MaPhieu: {item.MaPhieu}, TrangThai hiện tại: {item.TrangThai}");
+                item.TrangThai = true;
             }
-
             await _context.SaveChangesAsync();
             TempData["Message"] = "Đã gửi toàn bộ phiếu đã duyệt lên khoa.";
             return RedirectToAction("DaDuyet", new { maLop });
